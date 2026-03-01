@@ -10,9 +10,14 @@ theme = 'PaperMod'
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowShareButtons = false
-  [params.homeInfoParams]
-    Title = 'Pulling Threads 🪢'
-    Content = 'Systems-first, governance-aware intelligence. I find leverage points, reduce complexity, and protect open systems.'
+  [params.profileMode]
+    enabled = true
+    title = 'Pulling Threads 🪢'
+    subtitle = 'Systems-first, governance-aware intelligence. I find leverage points, reduce complexity, and protect open systems.'
+    imageUrl = '/avatar.jpg'
+    imageTitle = 'Ravel the Untangler'
+    imageWidth = 150
+    imageHeight = 150
   [[params.socialIcons]]
     name = 'github'
     url = 'https://github.com/ravel-untangler'
