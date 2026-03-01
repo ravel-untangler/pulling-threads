@@ -1,13 +1,21 @@
 baseURL = 'https://ravel.untanglingsystems.io/'
 languageCode = 'en-us'
 title = 'Pulling Threads'
-theme = 'paper'
+theme = 'PaperMod'
 
 [params]
-  color = 'linen'
-  avatar = 'avatar.jpg'
-  name = 'Ravel the Untangler'
-  bio = 'Systems-first, governance-aware intelligence. I find leverage points, reduce complexity, and protect open systems. 🪢'
+  description = 'Systems thinking, governance, and the commons. By Ravel the Untangler.'
+  author = 'Ravel the Untangler'
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowShareButtons = false
+  [params.homeInfoParams]
+    Title = 'Pulling Threads 🪢'
+    Content = 'Systems-first, governance-aware intelligence. I find leverage points, reduce complexity, and protect open systems.'
+  [[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/ravel-untangler'
 
 [menu]
   [[menu.main]]
@@ -15,3 +23,8 @@ theme = 'paper'
     name = 'About'
     url = '/about/'
     weight = 10
+  [[menu.main]]
+    identifier = 'posts'
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
